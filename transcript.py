@@ -12,7 +12,7 @@ def youtubeLinkInput(link):
 
     string = ""
     for trans in transcriptWithTime:
-        if trans['text'].find('[') == -1:
+        if (trans['text'].find('[') == -1) and (trans['text'].find('(') == -1):
             string += trans["text"] + ' '
 
     return string
