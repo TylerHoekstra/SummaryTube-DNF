@@ -1,0 +1,58 @@
+/* Add some basic styling to the page */
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 60%;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f8f8f8; /* Add a background color to the text box */
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075); /* Add a box shadow */
+}
+input[type="submit"] {
+  width: 30%; /* Make the button smaller */
+  height: 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#summary {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+/* Add some additional styling */
+body {
+  background-color: #f1f1f1;
+}
+form {
+  margin-top: 20px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+}
+#summary {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+}
