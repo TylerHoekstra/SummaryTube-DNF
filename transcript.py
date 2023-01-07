@@ -1,8 +1,6 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 
-def youtubeLinkInput():
-    link = input()
-
+def youtubeLinkInput(link):
     if link.find("youtube") != -1:
         yID = link.split('=')[1]
         yID = yID.split('&')[0]
