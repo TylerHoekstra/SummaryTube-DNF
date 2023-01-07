@@ -1,13 +1,19 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 
 link = input()
-#yID = link.
-#https://youtu.be/sy54UlVjTTA
-yID = "sy54UlVjTTA"
 
-# assigning srt variable with the list
-# of dictionaries obtained by the get_transcript() function
-srt = YouTubeTranscriptApi.get_transcript(yID)
+if link.find("youtube") != -1:
+    yID = link.split('=')[1]
+    yID = yID.split('&')[0]
+elif link.find("youtu.be") != -1:
+    yID = link.split('be')[1]
+    yID = yID.split('/')[1]
 
-# prints the result
-print(srt)
+transcriptWithTime = YouTubeTranscriptApi.get_transcript(yID)
+
+string = ""
+for trans in transcriptWithTime:
+    if trans['text'].find('[') == -1:
+        string += trans["text"] + ' '
+
+print(string)
