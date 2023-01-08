@@ -13,7 +13,8 @@ if (el){
     // get url ID token
     temp = videoUrl.split("=")
     vidId = temp[1]
-        
+    
+    // update our thumbnail
     var tn = document.getElementById("thumbnail").src = "https://www.youtube.com/embed/" + vidId
 
     // Send an HTTP request to the server-side script
