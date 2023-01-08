@@ -30,7 +30,7 @@ We are most proud of the fact that we saw through the whole project, especially 
 Flask framework\
 Front-end development\
 Implementing APIs\
-Web hosting\
+Web hosting
 
 ## What's next for SummaryTube
 
