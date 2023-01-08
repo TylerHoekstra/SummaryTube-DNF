@@ -1,12 +1,11 @@
-#import transcript
-#import summarize
+import transcript
+import summarize
 
-def main():
-    #link = input()
-    #text = transcript.youtubeLinkInput(link)
-    #summary = summarize.summarize(text)
-    #return summary
-    return "This proves that all this works"
+def main(link):
+    transcripted = transcript.youtubeLinkInput(link)
+    summary = summarize.summarize(transcripted)
+    return summary
+    #return "This proves that all this works"
 
 from flask import Flask, request
 import json
@@ -29,7 +28,7 @@ def process_text():
   text = data['inputUrl']
   
   # Process the text
-  processed_text = main()
+  processed_text = main(text)
   
   # Return the processed text as a response
   return processed_text
