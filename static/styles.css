@@ -17,7 +17,7 @@ form {
   border: 0px solid #303030; /* Add a border to the form */
   border-radius: 5px;
   /*box-shadow: 0 2px 3px rgba(0,0,0,0.1); /* Add a box shadow */
-  padding: 20px;
+  padding: 15px;
 }
 label {
   font-weight: bold;
@@ -67,7 +67,7 @@ p{
 }
 /* Add some additional styling */
 form {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 input[type="submit"] {
   margin-top: 10px;
