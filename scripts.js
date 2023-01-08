@@ -11,10 +11,10 @@ if (el){
     console.log(videoUrl);
 
     // Send an HTTP request to the server-side script
-    fetch('./main.py', {
-        method: 'GET',
+    fetch('http://localhost:8000/', {
+        method: 'POST',
         body: JSON.stringify({
-        video_url: videoUrl
+        inputUrl: videoUrl
         }),
         headers: {
         'Content-Type': 'application/json'
@@ -25,7 +25,7 @@ if (el){
         // Display the summary in the summary div
         document.getElementById('summary').innerHTML = summary;
     }).catch(function(error) {
-        console.error(error);
+        console.error('HEYHEYHEYSTOP' + error);
     });
     });
 }
