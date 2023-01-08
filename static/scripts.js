@@ -44,5 +44,5 @@ if (el){
         */
 }
 else{
-    console.log('There is no form present');
+    console.log('We were not able to generate a summary for you because this video does not have a transcript');
 }
