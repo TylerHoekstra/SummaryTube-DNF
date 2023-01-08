@@ -37,4 +37,4 @@ We hope to improve the UI and make the design look better. We would like to crea
 
 ## Constraints
 
-The free version of openAI's GPT-3 has some built in constraints. Obviously there is the problem that one must use their own API-key in the summarize.py file. In addition there is a constraint of a maximum of 4097 words that can be said in the video; the average video with less than 4097 words has a maximum run-time of about 25 minutes. There is also a dependencies file  with all of the required dependencies needed to run the program.
+The free version of openAI's GPT-3 has some built in constraints. Obviously there is the problem that one must use their own API-key in the summarize.py file. In addition there is a constraint of a maximum of 4097 words that can be said in the video; the average video with less than 4097 words has a maximum run-time of about 25 minutes. There is also a requirements.txt file  with all of the required dependencies needed to run the program.
