@@ -10,6 +10,7 @@ if (el){
     var videoUrl = document.getElementById('video_url').value;
     console.log(videoUrl);
     
+    // get url ID token
     temp = videoUrl.split("=")
     console.log(temp)
     vidId = temp[1]
