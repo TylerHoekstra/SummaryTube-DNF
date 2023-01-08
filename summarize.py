@@ -9,7 +9,7 @@ import os
 import openai
 
 def summarize(text_to_summarize):
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     response = openai.Completion.create(
         model="text-davinci-003",

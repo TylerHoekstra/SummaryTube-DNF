@@ -2,9 +2,15 @@ import transcript
 import summarize
 
 def main(link):
-    transcripted = transcript.youtubeLinkInput(link)
-    summary = summarize.summarize(transcripted)
-    return summary
+    print(link)
+
+    try:
+        transcripted = transcript.youtubeLinkInput(link)
+        summary = summarize.summarize(transcripted)
+        return summary
+    except:
+        return "Sorry OPEN AI is having difficulties"
+
     #return "This proves that all this works"
 
 from flask import Flask, request
