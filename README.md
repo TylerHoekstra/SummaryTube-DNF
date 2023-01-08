@@ -35,3 +35,8 @@ Web hosting
 ## What's next for SummaryTube
 
 We hope to improve the UI and make the design look better and have a more robust user experience
+
+## Constraints
+
+The free version of openAI's GPT-3 has some built in constraints. Obviously there is the problem that one must use their own API-key. In addition there is a contraint of a maximum of 4097 words that can be said in the video; the average video with less than 4097 words has a maximum run-time of about 25 minutes.
+There is also a dependencies file  with all of the required dependencies needed to run the program.
