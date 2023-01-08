@@ -9,6 +9,12 @@ if (el){
     // Get the video URL from the form
     var videoUrl = document.getElementById('video_url').value;
     console.log(videoUrl);
+    
+    temp = videoUrl.split("=")
+    console.log(temp)
+    vidId = temp[1]
+    console.log(vidId)
+    var tn = document.getElementById("thumbnail").src = "https://www.youtube.com/embed/" + vidId
 
     // Send an HTTP request to the server-side script
     fetch('http://localhost:8000/api/process_video', {
@@ -28,6 +34,14 @@ if (el){
         console.error('HEYHEYHEYSTOP' + error);
     });
     });
+
+    
+    /*
+    if (tn.src == "https://www.youtube.com/embed/tgbNymZ7vqY")
+        tn.src = videoUrl
+    else
+        tn.src = "https://www.youtube.com/embed/tgbNymZ7vqY"
+        */
 }
 else{
     console.log('There is no form present');
