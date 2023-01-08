@@ -16,7 +16,7 @@ form {
   background-color: #0f0f0f; /* Add a background color to the form */
   border: 0px solid #303030; /* Add a border to the form */
   border-radius: 5px;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.1); /* Add a box shadow */
+  /*box-shadow: 0 2px 3px rgba(0,0,0,0.1); /* Add a box shadow */
   padding: 20px;
 }
 label {
@@ -24,8 +24,8 @@ label {
   color: #fff; /* Change the color of the label */
 }
 input[type="text"] {
-  width: 60%;
-  height: 25px;
+  width: 50%;
+  height: 40px;
   border: 1px solid #303030;
   border-radius: 12.5px;
   padding: 5px;
