@@ -26,9 +26,9 @@ We are most proud of the fact that we saw through the whole project, especially 
 
 ## What We Learned
 
-* Flask framework\
-* Front-end development\
-* Implementing APIs\
+* Flask framework
+* Front-end development
+* Implementing APIs
 * Web hosting
 
 ## What's Next For SummaryTube
