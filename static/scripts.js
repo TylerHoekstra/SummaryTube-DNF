@@ -11,7 +11,7 @@ if (el){
     console.log(videoUrl);
 
     // Send an HTTP request to the server-side script
-    fetch('http://localhost:8000/', {
+    fetch('http://localhost:8000/api/process_video', {
         method: 'POST',
         body: JSON.stringify({
         inputUrl: videoUrl

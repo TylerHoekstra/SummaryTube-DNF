@@ -20,7 +20,7 @@ app = Flask(__name__, static_url_path='')
 def root():
     return app.send_static_file('index.html')
 
-@app.route('/', methods=['POST'])
+@app.route('/api/process_video', methods=['POST'])
 def process_text():
   # Parse the request body
   data = request.get_json()
@@ -35,4 +35,4 @@ def process_text():
   return processed_text
 
 if __name__ == '__main__':
-  app.run(debug=True, port = 8000)
+  app.run(port = 8000)
