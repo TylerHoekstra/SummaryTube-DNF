@@ -27,7 +27,7 @@ We are most proud of the fact that we saw through the whole project, especially 
 
 ## What we learned
 
-Flask framework 
+Flask framework\
 Front-end development
 Implementing APIs
 Web hosting
