@@ -79,3 +79,8 @@ input[type="submit"] {
   line-height: 1.5;
   color: #fff; /* Change the color of the summary text */
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
