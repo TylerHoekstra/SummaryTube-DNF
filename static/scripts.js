@@ -34,14 +34,6 @@ if (el){
         console.error('HEYHEYHEYSTOP' + error);
     });
     });
-
-    
-    /*
-    if (tn.src == "https://www.youtube.com/embed/tgbNymZ7vqY")
-        tn.src = videoUrl
-    else
-        tn.src = "https://www.youtube.com/embed/tgbNymZ7vqY"
-        */
 }
 else{
     console.log('We were not able to generate a summary for you because this video does not have a transcript');
