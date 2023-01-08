@@ -8,35 +8,33 @@ As a student, time is valuable. We are constantly budgeting time for assignments
 
 A simple title is not always enough to know whether or not a video is worth your time, and YouTube creators do not always put descriptive summaries. Providing an accurate summary of a YouTube video can be extremely useful for students to decide whether or not a video is helpful to make more effective use of out time. 
 
-## What it does
+## What It Does
 
-SummaryTube is a website that takes a YouTube video link from the user as input and outputs a brief text-based summary of the video
+SummaryTube is a website that takes a YouTube video link from the user as input and outputs a brief text-based summary of the video.
 
-## How we built it
+## How We Built It
 
-The summary is generated based off of the closed-captions provided by YouTube for the video (pre-written transcripts/scripts produce best results, but auto-generated transcripts still produce consistently excellent results) 
-The summary is created by GPT-3, the AI-based software from OpenAI, the predecessor to ChatGPT
+The summary is generated based off of the closed-captions provided by YouTube for the video (pre-written transcripts/scripts produce best results, but auto-generated transcripts still produce consistently excellent results). The summary is created by GPT-3, the AI-based software from OpenAI, the predecessor to ChatGPT.
 
-## Challenges we ran into
+## Challenges We Ran Into
 
-We had trouble getting our Flask server to interact(send and receive requests) with our server-side backend but we were able to get past that roadblock by consulting with one of the mentors; Connor
+We had trouble getting our Flask server to interact (send and receive requests) with our server-side backend but we were able to get past that roadblock by consulting with one of the mentors, Connor.
 
-## Accomplishments that we're proud of
+## Accomplishments That We're Proud Of
 
-We are most proud of the fact that we saw through the whole project, especially considering that all of us have limited experience with UI work
+We are most proud of the fact that we saw through the whole project, especially considering that all of us have limited experience with UI work.
 
-## What we learned
+## What We Learned
 
 Flask framework\
 Front-end development\
 Implementing APIs\
 Web hosting
 
-## What's next for SummaryTube
+## What's Next For SummaryTube
 
-We hope to improve the UI and make the design look better and have a more robust user experience
+We hope to improve the UI and make the design look better. We would like to create a more robust user experience.
 
 ## Constraints
 
-The free version of openAI's GPT-3 has some built in constraints. Obviously there is the problem that one must use their own API-key. In addition there is a contraint of a maximum of 4097 words that can be said in the video; the average video with less than 4097 words has a maximum run-time of about 25 minutes.
-There is also a dependencies file  with all of the required dependencies needed to run the program.
+The free version of openAI's GPT-3 has some built in constraints. Obviously there is the problem that one must use their own API-key in the summarize.py file. In addition there is a constraint of a maximum of 4097 words that can be said in the video; the average video with less than 4097 words has a maximum run-time of about 25 minutes. There is also a dependencies file  with all of the required dependencies needed to run the program.
